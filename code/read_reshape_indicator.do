@@ -1,6 +1,6 @@
-local indicator gdp
-local longname gdp_per_capita
-local label "GDP per capota (USD?)"
+local indicator pop
+local longname population
+local label "Population"
 
 #delimit ;
 import delimited
@@ -15,4 +15,5 @@ save "data/derived/gdp_per_capita.dta",replace
 // good idea to use relative paths, as we do already
 
 
+// now i can add soem stuff more here
 
